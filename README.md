@@ -74,7 +74,7 @@ Example:
 ```
 markdown.js="""
 window.addEvent("load",function(){
-  ~~~
+  
 },false);
 """
 ```

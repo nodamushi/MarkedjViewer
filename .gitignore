@@ -1,0 +1,8 @@
+.classpath
+.project
+/bin/
+/.settings/
+/build/
+/class/
+/lib/*.jar
+/lib/markedj-master/

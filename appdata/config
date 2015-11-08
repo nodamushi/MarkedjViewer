@@ -1,0 +1,27 @@
+app.resource=$(app.directory)/resource
+
+/*
+  CSS files
+  separator is ;
+*/
+markdown.cssfile="
+  $(app.resource)/github.css
+"
+markdown.css="""
+"""
+
+markdown.jsfile="
+"
+
+markdown.js="""
+"""
+
+markdown.code.langprefix=
+
+markdown.body.pre="""
+<div id="markdown">
+"""
+
+markdown.body.post="""
+</div>
+"""

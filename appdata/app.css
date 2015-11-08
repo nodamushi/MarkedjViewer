@@ -1,0 +1,52 @@
+.n-tool-bar{
+/*    -fx-show:show;/*for debag*/
+    -fx-background-color:black;
+}
+
+#open-menu,#reload-menu,#save-menu,#setting-menu{
+    -fx-content-display:graphic-only;
+    -fx-background-color:transparent;
+}
+#open-menu:hover,#reload-menu:hover,#save-menu:hover,#setting-menu:hover{
+    -fx-background-color:red;
+}
+
+#open-menu{
+    -fx-graphic:url(icon/document9.png);
+}
+
+#reload-menu{
+    -fx-graphic:url(icon/refresh83.png);
+}
+#save-menu{
+    -fx-graphic:url(icon/save23.png);
+}
+
+#setting-menu{
+    -fx-graphic:url(icon/gear39.png);
+}
+
+.md-view:empty{
+    -fx-background-color:#999;
+}
+
+.md-view .empty-message{
+    -fx-opacity:0;
+}
+
+.md-view:empty .empty-message{
+    -fx-opacity:1;
+    -fx-text-fill:white;
+    -fx-graphic:url(icon/document9.png);
+    -fx-content-display:top;
+}
+
+
+.md-view:empty  .web-view{
+    -fx-opacity:0;
+}
+
+
+
+
+
